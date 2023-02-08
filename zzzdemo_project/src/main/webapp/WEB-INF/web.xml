@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<display-name>zzzdemo_project</display-name>
+	<servlet>
+		<servlet-name>updatehandelservlet</servlet-name>
+		<display-name>updatehandelservlet</display-name>
+		<description></description>
+		<servlet-class>updatehandelservlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletehandle</servlet-name>
+		<display-name>deletehandle</display-name>
+		<description></description>
+		<servlet-class>deletehandle</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>updateservlet</servlet-name>
+		<display-name>updateservlet</display-name>
+		<description></description>
+		<servlet-class>updateservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updatehandelservlet</servlet-name>
+		<url-pattern>/updatehandelservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletehandle</servlet-name>
+		<url-pattern>/deletehandle</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>updateservlet</servlet-name>
+		<url-pattern>/updateservlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>todo.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
