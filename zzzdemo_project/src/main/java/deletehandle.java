@@ -41,7 +41,7 @@ public class deletehandle extends HttpServlet {
 			else {
 				System.out.println(i+"detete error");
 			}
-			response.sendRedirect("todo.jsp");
+			response.sendRedirect("index.jsp");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

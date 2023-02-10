@@ -44,7 +44,7 @@ public class updateservlet extends HttpServlet {
 			int i=ps.executeUpdate();
 			
 			System.out.println(i+"update success....");
-			response.sendRedirect("todo.jsp");
+			response.sendRedirect("index.jsp");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
